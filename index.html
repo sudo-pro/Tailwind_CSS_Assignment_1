@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jagadish Sau" />
+    <meta name="description" content="Promact Internship 2025" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Assignment - 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="m-0 p-0 font-sans">
+    <nav
+      class="absolute top-0 w-full h-12 bg-black flex flex-row px-5 items-center justify-between md:justify-start gap-10"
+    >
+      <div class="text-white text-lg">
+        <i class="fa-solid fa-robot"></i>
+      </div>
+      <ul class="hidden md:flex flex-row font-white-200">
+        <li>
+          <a
+            href="/"
+            class="text-white hover:text-black hover:bg-white rounded px-3 py-2"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="/"
+            class="text-white hover:text-black hover:bg-white rounded px-3 py-2"
+            >Pages</a
+          >
+        </li>
+        <li>
+          <a
+            href="/"
+            class="text-white hover:text-black hover:bg-white rounded px-3 py-2"
+            >About Us</a
+          >
+        </li>
+        <li>
+          <a
+            href="/"
+            class="text-white hover:text-black hover:bg-white rounded px-3 py-2"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+      <div class="md:hidden text-white text-lg cursor-pointer float-right">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <div
+      class="flex flex-col flex-col-reverse md:flex-row justify-center items-start mt-10 p-8 bg-blue-100"
+    >
+      <div class="md:w-1/2 p-5">
+        <div class="text-2xl font-bold">Why Lorem Ipsum?</div>
+        <p class="text-gray-700 mt-2">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+        <p class="text-gray-700 mt-2">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source.
+        </p>
+        <button
+          class="bg-blue-500 text-white px-6 py-2 mt-4 rounded group relative flex items-center"
+        >
+          <span class="mr-2">Learn More</span>
+          <span class="hidden group-hover:inline"
+            ><i class="fa-solid fa-angles-right"></i
+          ></span>
+        </button>
+      </div>
+      <div class="md:w-1/2 flex justify-center w-full p-5">
+        <img
+          src="images/image1.png"
+          alt="women_working"
+          class="hover:shadow-2xl"
+        />
+      </div>
+    </div>
+    <div
+      class="bg-[#68edb6] flex flex-col md:flex-row justify-center items-start p-[5%] md:p-[5%_7%_4%_7%] gap-8"
+    >
+      <div class="sm:w-full flex justify-center w-full p-5">
+        <img
+          class="w-[700px] sm:w-[300px] md:w-[600px] sm:h-[350px] md:h-[400px] hover:shadow-2xl hover:scale-110 transition-transform duration-300 transform"
+          src="images/image2.png"
+          alt="vr_guy"
+        />
+      </div>
+      <div class="pr-8">
+        <div class="text-2xl font-bold">Why Lorem Ipsum?</div>
+        <p class="text-gray-700 pt=3 md:pt-4">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+        <p class="text-gray-700">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source.
+        </p>
+        <button
+          class="bg-[#019558] border-none px-9 py-2 mt-4 rounded-md text-xl text-white group"
+        >
+          <span>Learn More </span>
+          <span class="hidden group-hover:inline"
+            ><i class="fa-solid fa-angles-right"></i
+          ></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="flex justify-center gap-5 flex-wrap p-8">
+      <div
+        class="group bg-white rounded-lg border border-gray-300 p-5 text-center w-full sm:w-[200px] hover:bg-fuchsia-500 hover:text-white"
+      >
+        <div
+          class="icon-container group-hover:bg-white w-[50px] h-[50px] border-2 rounded-full flex justify-center items-center text-2xl mx-auto mb-2 text-gray-800 border-gray-800 transition-transform duration-500"
+          style="color: #ff00ff; border-color: #ff00ff"
+        >
+          <i
+            class="fa fa-music group-hover:rotate-180 transition-transform duration-500"
+          ></i>
+        </div>
+        <h3>Music</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content.
+        </p>
+      </div>
+
+      <div
+        class="group bg-white rounded-lg border border-gray-300 p-5 text-center w-full sm:w-[200px] hover:bg-green-500 hover:text-white"
+      >
+        <div
+          class="icon-container group-hover:bg-white w-[50px] h-[50px] border-2 rounded-full flex justify-center items-center text-2xl mx-auto mb-2 text-gray-800 border-gray-800 transition-transform duration-500"
+          style="color: #00c96b; border-color: #00c96b"
+        >
+          <i
+            class="fa fa-download group-hover:rotate-180 transition-transform duration-500"
+          ></i>
+        </div>
+        <h3>Downloads</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content.
+        </p>
+      </div>
+
+      <div
+        class="group bg-white rounded-lg border border-gray-300 p-5 text-center w-full sm:w-[200px] hover:bg-yellow-500 hover:text-white"
+      >
+        <div
+          class="icon-container group-hover:bg-white group-hover:bg:white w-[50px] h-[50px] border-2 rounded-full flex justify-center items-center text-2xl mx-auto mb-2 text-gray-800 border-gray-800 transition-transform duration-500"
+          style="color: #ffcc00; border-color: #ffcc00"
+        >
+          <i
+            class="fa fa-camera group-hover:rotate-180 transition-transform duration-500"
+          ></i>
+        </div>
+        <h3>Pictures</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content.
+        </p>
+      </div>
+
+      <div
+        class="group bg-white rounded-lg border border-gray-300 p-5 text-center w-full sm:w-[200px] hover:bg-[#3399ff] hover:text-white"
+      >
+        <div
+          class="icon-container group-hover:bg-white w-[50px] h-[50px] border-2 rounded-full flex justify-center items-center text-2xl mx-auto mb-2 text-gray-800 border-gray-800 transition-transform duration-500"
+          style="color: #3399ff; border-color: #3399ff"
+        >
+          <i
+            class="fa fa-wifi group-hover:rotate-180 transition-transform duration-500"
+          ></i>
+        </div>
+        <h3>Connect</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content.
+        </p>
+      </div>
+
+      <div
+        class="group bg-white rounded-lg border border-gray-300 p-5 text-center w-full sm:w-[200px] hover:bg-gray-800 hover:text-white"
+      >
+        <div
+          class="icon-container group-hover:bg-white w-[50px] h-[50px] border-2 rounded-full flex justify-center items-center text-2xl mx-auto mb-2 text-gray-800 border-gray-800 transition-transform duration-500"
+          style="color: #444; border-color: #444"
+        >
+          <i
+            class="fa fa-map-marker-alt group-hover:rotate-180 transition-transform duration-500"
+          ></i>
+        </div>
+        <h3>Location</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div
+        class="bg-[#2d2d2d] text-[#bbb] py-5 px-12 font-sans flex flex-col md:flex-row justify-evenly items-start gap-4"
+      >
+        <div class="">
+          <i class="fa-brands fa-github"></i><br />
+          <span>© 2017-2022</span>
+        </div>
+        <div class="footer-column">
+          <h4 class="text-lg text-white mb-2">Features</h4>
+          <ul class="list-none p-0 m-0">
+            <li class="mb-1">
+              <a
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                href="#"
+                >Cool stuff</a
+              >
+            </li>
+            <li class="mb-1">
+              <a
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                href="#"
+                >Random feature</a
+              >
+            </li>
+            <li class="mb-1">
+              <a
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                href="#"
+                >Team feature</a
+              >
+            </li>
+            <li class="mb-1">
+              <a
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                href="#"
+                >Stuff for developers</a
+              >
+            </li>
+            <li class="mb-1">
+              <a
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                href="#"
+                >Another one</a
+              >
+            </li>
+            <li class="mb-1">
+              <a
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                href="#"
+                >Last time</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="text-lg text-white mb-2">Resources</h4>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                >Resource</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                >Resource name</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                >Another resource</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                >Final resource</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="text-lg text-white mb-2">About</h4>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                >Team</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                >Locations</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#bbb] no-underline hover:text-white transition-colors"
+                >Terms</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
